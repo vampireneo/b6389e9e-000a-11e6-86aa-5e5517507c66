@@ -20,6 +20,46 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.main-content .main-article {
+  width: 75%;
+  order: 1;
+  padding-right: 2%;
+}
+
+.main-content .more-articles {
+}
+
+.main-content .sidemenu {
+  width: 25%;
+  order: 2;
+  align-self: flex-end;
+}
+
+.main-content .related-articles {
+  order: 3;
+}
+
+.related-articles h1 {
+  width: 100%;
+}
+
+.related-articles article {
+  width: 32%;
+  margin-right: 2%;
+  float: left;
+}
+
+.related-articles article:nth-child(3n+1) {
+  margin-right: 0;
+}
+
 .article-quote {
   float: right;
 }
@@ -29,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .submenu {
-  border: 1px solid #E7E7E7 ;
+  border: 1px solid #E7E7E7;
   padding-bottom: 1.4em;
   margin-bottom: 1.4em;
   -webkit-border-radius: 6px;
