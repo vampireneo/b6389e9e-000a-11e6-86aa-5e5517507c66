@@ -4,9 +4,9 @@ html {
 }
 
 body {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 20px;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
   font-family: 'Metrophobic', Arial, serif;
   font-weight: 400;
 }
@@ -18,6 +18,46 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
+}
+
+nav.navbar {
+  background-color: #28373E;
+  min-height: 40px;
+}
+
+#nav-logo {
+  margin-top: 1.1em;
+  width: 6em;
+}
+
+#navbar {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+}
+#navbar li>a {
+    line-height: 10px;
+}
+
+#navbar ul li.active {
+  border-bottom: 2px solid #1ED6CA;
+}
+
+#navbar ul li.active>a {
+  background-color: #1F2A30;
+}
+
+.jumbotron {
+  background-color: #8198A0;
+}
+
+.jumbotron p {
+  padding: 0;
+}
+
+.jumbotron p span {
+  background-color: #EEAC56;
+  color: #FFF;
+  padding: 0.3em 0;
 }
 
 .main-content {
@@ -90,6 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 .submenu ul>li>a.active, .submenu ul>li>a:hover {
     background: #1ED6CA;
     color: #FFF;
+    text-decoration: none;
 }
 
 .contact-us {
@@ -148,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: #28373E;
 }
 
