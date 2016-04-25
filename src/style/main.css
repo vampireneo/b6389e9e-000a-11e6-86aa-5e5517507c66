@@ -99,6 +99,26 @@ nav.navbar {
   align-self: flex-start;;
 }
 
+.main-content .quote {
+  width: 60%;
+  float: right;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  padding: 2em 2em 0 2em;
+  color: #687B89;
+}
+
+.main-content .quote-footer::before {
+  content: "- ";
+}
+
+.main-content .quote-footer {
+  width: 60%;
+  padding: 0 1em 1em 0;
+  float: right;
+  text-align: right;
+}
+
 .related-articles {
   order: 3;
   margin-top: 2em;
