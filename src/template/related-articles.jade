@@ -1,0 +1,15 @@
+mixin related-articles(header, imgFile, imgText, link, content)
+  article
+    div.thumbnail
+      img(src=imgFile, alt=imgText)
+      div.caption
+        h1: a(href=link)=header
+        p=content
+
+section.related-articles
+  h1.text-center: span Related Articles
+  +related-articles('Proin facilisis dui nec mollis ex', require("../img/teaser-rect-01.jpg"), 'teaser-rect-01', '#', 'Donec et eros sed mi tincidunt elementum. Sed suscipit quis leo vel posuere non condimentum sollicitudin, nunc elit laoreet odio, a iaculis ipsum augue id eros.')
+  +related-articles('Fusce vestibulum', require("../img/teaser-rect-02.jpg"), 'teaser-rect-02', '#', 'Suspendisse rhoncus mi in quam aliquet semper.')
+  +related-articles('Duis feugiat sollicitudin', require("../img/teaser-rect-03.jpg"), 'teaser-rect-03', '#', 'Integer tristique ante sed turpis pharetra commodo, auctor eu diam. Praesent ut libero vitae justo luctus pellentesque. Fusce et mi non leo scelerisque bibendum.')
+  +related-articles('Maecenas at lorem sit amet', require("../img/teaser-rect-04.jpg"), 'teaser-rect-04', '#', 'Nunc mi elit, consequat sed lobortis sit amet, posuere non justo. Morbi feugiat a lorem sit amet rhoncus.')
+  +related-articles('Curabitur imperdiet magna', require("../img/teaser-rect-05.jpg"), 'teaser-rect-05', '#', 'Fusce consectetur hendrerit nunc, sit amet scelerisque velit hendrerit vel. Vestibulum mattis id sapien et mollis. Etiam non mattis magna.')

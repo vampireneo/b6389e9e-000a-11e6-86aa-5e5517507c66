@@ -1,6 +1,9 @@
 'use strict';
 require('!style!css!../style/main.css');
 const $ = require('jquery');
+const main = require('../template/main.jade')();
+
+$('body').html(main);
 
 $('#SendMsgMessage').keypress(function (e) {
   let msgLength = e.target.value.length;
@@ -9,7 +12,7 @@ $('#SendMsgMessage').keypress(function (e) {
   }
 }).keyup(function (e) {
   let msgLength = e.target.value.length;
-  $('#SendMsgMessageCount').text(msgLength);
+  $('#SendMsgMessageCount').text(msgLength + '/140');
 });
 
 $('.send-me-msg .btn').click(function (e) {

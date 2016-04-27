@@ -1,0 +1,36 @@
+aside.sidemenu
+  nav.submenu
+    h1.text-center Submenu
+    ul
+      +link('Home')
+      +link('Examples').active
+      +link('Contact')
+      +link('About')
+  section.contact-us
+    header
+      img(src=require("../img/avatar.jpg"), alt="Neo's Profile Picture").center-block
+    dl.contact-info.dl-horizontal
+      dt Name
+      dd Neo Choi
+      dt Email
+      dd neo.choi@example.com
+      dt Phone
+      dd +852 9123 4567
+    section.send-me-msg
+      h1.text-center Send me a message
+      form
+        div.form-group
+          label(for="InputSubject") Subject
+          input(type="text", id="SendMsgSubject").form-control
+        div.form-group
+          label(for="SendMsgMessage") Message
+          textarea.form-control(rows="3", id="SendMsgMessage")
+          footer: span(id="SendMsgMessageCount") 0 /140
+        button(type="submit").btn.btn-info.btn-block Send
+    section.office-address
+      h1.text-center Or meet me at the office
+      img(src=require("../img/map.gif"), alt="Map", id="officeMap")
+      address.
+        ONE MIDTOWN<br>
+        11 Hoi Shing Rd<br>
+        Tsuen Wan<br>

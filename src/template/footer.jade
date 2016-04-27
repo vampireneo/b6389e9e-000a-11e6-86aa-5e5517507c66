@@ -1,0 +1,11 @@
+mixin list(header, ...items)
+  nav
+    h1=header
+    ul
+      each item in items
+        li: a(href="#")= item
+      
+footer.footer
+  +list('About us', 'Aenean tincidunt', 'Suspendisse', 'Nullam varius', 'Aliquam ligula')
+  +list('Legal', 'Nullam mauris quam', 'Morbi', 'Phasellus')
+  +list('Developers', 'Sed ultrices sed sem', 'Donec ac imperdiet', 'Curabitur ornare', 'Suspendisse torquent nulla')
