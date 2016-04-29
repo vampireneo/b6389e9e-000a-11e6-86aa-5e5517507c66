@@ -1,0 +1,110 @@
+.sidemenu
+  width: 25%
+  order: 2
+  align-self: flex-start
+  @media (max-width: 767px)
+    width: 100%
+    order: 5
+
+  h1
+    font-size: 1.4em
+
+  .submenu
+    border: 1px solid #E7E7E7
+    padding-bottom: 1.4em
+    margin-bottom: 1.4em
+    -webkit-border-radius: 6px
+    border-radius: 6px
+
+    ul
+      margin: 0
+      padding: 0
+      list-style: none
+
+      >li
+        >a
+          display: block
+          padding: .5em 1.3em
+
+        .active, :hover
+          background: $highlight-color
+          color: $highlight-font-color
+          text-decoration: none
+
+  .contact-us
+    background-color: $contact-us-bg-color
+    -webkit-border-radius: 6px
+    border-radius: 6px
+    overflow: hidden
+
+    h1
+      margin: 1em
+
+    >header
+      background-image: url('../img/hk-skyline.jpg')
+      background-size: cover
+      background-repeat: no-repeat
+      height: 110px
+      padding-top: 70px
+
+      img
+        width: 80px
+        -webkit-border-radius: 50%
+        border-radius: 50%
+        border: 3px solid #FFF
+
+    .contact-info
+      margin-top: 50px
+      margin-bottom: 30px
+      font-size: 0.8em
+      @media (max-width: 767px)
+        font-size: 1em
+
+      dt
+        margin: 0.5em 0 0.5em 3em
+        text-align: left
+        width: 4em
+        @media (max-width: 767px)
+          float: left
+          overflow: hidden
+          clear: left
+          text-align: right
+          text-overflow: ellipsis
+          white-space: nowrap
+
+      dd
+        margin-left: 0
+        padding-top: 0.5em
+
+    .send-me-msg
+      background-color: $contact-us-bg-deep-color
+      padding: 5px 20px 20px 20px
+
+      label
+        font-weight: $normal-font-weight
+        font-family: $header-font
+        font-size: 0.9em
+        color: $send-me-msg-font-color
+        margin-bottom: 0
+
+      footer
+        font-weight: $normal-font-weight
+        font-family: $header-font
+        font-size: 0.8em
+        color: $send-me-msg-font-color
+        text-align: right
+        margin-top: 0.3em
+
+      .btn-info
+        background-color: $highlight-color
+        margin: 2em 0 0 0
+        padding: 1em 0
+
+  .office-address
+    address
+      margin: 1em 1em 2em 2em
+      line-height: 2em
+      color: #656668
+
+    .officeMap
+      width: 100%

@@ -1,5 +1,4 @@
 'use strict';
-require('!style!css!../style/main.css');
 require('!style!css!sass!../style/base.sass');
 const $ = require('jquery');
 const main = require('../template/main.jade')();

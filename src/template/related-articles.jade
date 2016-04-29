@@ -7,7 +7,7 @@ mixin related-articles(header, imgFile, imgText, link, content)
         p=content
 
 section.related-articles
-  h1.text-center: span Related Articles
+  h1.text-center.section-header: span Related Articles
   +related-articles('Proin facilisis dui nec mollis ex', require("../img/teaser-rect-01.jpg"), 'teaser-rect-01', '#', 'Donec et eros sed mi tincidunt elementum. Sed suscipit quis leo vel posuere non condimentum sollicitudin, nunc elit laoreet odio, a iaculis ipsum augue id eros.')
   +related-articles('Fusce vestibulum', require("../img/teaser-rect-02.jpg"), 'teaser-rect-02', '#', 'Suspendisse rhoncus mi in quam aliquet semper.')
   +related-articles('Duis feugiat sollicitudin', require("../img/teaser-rect-03.jpg"), 'teaser-rect-03', '#', 'Integer tristique ante sed turpis pharetra commodo, auctor eu diam. Praesent ut libero vitae justo luctus pellentesque. Fusce et mi non leo scelerisque bibendum.')
