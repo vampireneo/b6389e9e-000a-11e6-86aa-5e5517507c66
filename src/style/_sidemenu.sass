@@ -26,7 +26,6 @@
         >a
           display: block
           padding: .5em 1.3em
-          text-decoration: none
 
         .active, :hover
           background: $highlight-color
@@ -75,8 +74,11 @@
       dd
         margin-left: 0
         padding-top: 0.5em
+        color: $normal-font-color
         @media (max-width: 767px)
           margin-left: 8em
+        a
+          color: $normal-font-color
 
     .send-me-msg
       background-color: $contact-us-bg-deep-color
