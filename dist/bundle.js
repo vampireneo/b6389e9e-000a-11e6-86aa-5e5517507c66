@@ -12857,9 +12857,9 @@
 
 	'use strict';
 
-	__webpack_require__(45);
+	__webpack_require__(42);
 	var $ = __webpack_require__(20);
-	var main = __webpack_require__(47)();
+	var main = __webpack_require__(45)();
 
 	$('body').html(main);
 
@@ -12880,21 +12880,13 @@
 	});
 
 /***/ },
-/* 42 */,
-/* 43 */,
-/* 44 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "img/img-815095.jpg";
-
-/***/ },
-/* 45 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(46);
+	var content = __webpack_require__(43);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(17)(content, {});
@@ -12914,7 +12906,7 @@
 	}
 
 /***/ },
-/* 46 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(11)();
@@ -12922,16 +12914,22 @@
 
 
 	// module
-	exports.push([module.id, "html {\n  position: relative;\n  min-height: 100%; }\n\nbody {\n  padding-top: 45px;\n  padding-bottom: 20px;\n  margin-bottom: 20em;\n  font-family: \"Merriweather\", Arial, serif;\n  font-weight: 400; }\n  @media (max-width: 767px) {\n    body {\n      margin-bottom: 45em; } }\n  @media (min-width: 768px) and (max-width: 992px) {\n    body {\n      font-size: 1em; } }\n\na {\n  color: #1ED6CA;\n  text-decoration: none; }\n\np {\n  padding: 0.5em 0;\n  font-weight: 100;\n  color: #676767;\n  font-size: 1.1em;\n  line-height: 1.5em; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Montserrat\", sans-serif;\n  font-weight: 700; }\n\nnav.navbar {\n  background-color: #28373E;\n  min-height: 45px; }\n\n#nav-logo {\n  margin-top: 0.9em;\n  width: 6em; }\n\n#navbar {\n  font-family: \"Montserrat\", sans-serif;\n  font-size: 1em; }\n  #navbar li > a {\n    line-height: 12px;\n    padding-left: 1.8em;\n    padding-right: 1.8em; }\n  #navbar ul li.active {\n    border-bottom: 2px solid #1ED6CA; }\n  #navbar ul > a {\n    background-color: #1F2A30; }\n\n.jumbotron {\n  background-color: #8198A0; }\n  .jumbotron p {\n    padding: 0;\n    font-family: \"Montserrat\", sans-serif;\n    font-weight: 400;\n    font-size: 2em; }\n    .jumbotron p span {\n      background-color: #EEAC56;\n      color: #FFF;\n      padding: 0.3em 0; }\n\n.main-content {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  align-items: flex-start; }\n  .main-content .main-article {\n    width: 75%;\n    order: 1;\n    padding-right: 2%; }\n    @media (max-width: 767px) {\n      .main-content .main-article {\n        width: 100%;\n        padding-right: 0; } }\n    .main-content .main-article > p:first-of-type {\n      font-size: 1.4em;\n      line-height: 1.5em;\n      padding: 1em 0; }\n    .main-content .main-article .quote {\n      width: 60%;\n      float: right;\n      font-size: 1.2em;\n      line-height: 1.6em;\n      padding: 2em 2em 0 2em;\n      color: #687B89;\n      font-style: italic; }\n    .main-content .main-article .quote-footer::before {\n      content: \"- \"; }\n    .main-content .main-article .quote-footer {\n      width: 60%;\n      padding: 0 1em 1em 0;\n      float: right;\n      text-align: right; }\n  .main-content .related-articles {\n    order: 3;\n    margin-top: 2em;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap; }\n    .main-content .related-articles h1 {\n      width: 100%; }\n    .main-content .related-articles article {\n      width: 32%;\n      margin-right: 2%; }\n    .main-content .related-articles article:nth-of-type(3n) {\n      margin-right: 0; }\n    .main-content .related-articles .thumbnail {\n      padding: 0;\n      border-width: 2px; }\n  .main-content .more-articles {\n    margin-top: 10em; }\n    .main-content .more-articles .media-object {\n      width: 160px; }\n  .main-content h1.section-header {\n    background-color: #EAE8E9;\n    line-height: 0.15em;\n    margin: 1.5em 0; }\n    .main-content h1.section-header span {\n      background-color: #FFF;\n      display: inline-block;\n      border-left: 0.8em solid #FFF;\n      border-right: 0.8em solid #FFF; }\n\n.sidemenu {\n  width: 25%;\n  order: 2;\n  align-self: flex-start; }\n  @media (max-width: 767px) {\n    .sidemenu {\n      width: 100%;\n      order: 5; } }\n  .sidemenu h1 {\n    font-size: 1.4em; }\n  .sidemenu .submenu {\n    border: 1px solid #E7E7E7;\n    padding-bottom: 1.4em;\n    margin-bottom: 1.4em;\n    -webkit-border-radius: 6px;\n    border-radius: 6px; }\n    .sidemenu .submenu ul {\n      margin: 0;\n      padding: 0;\n      list-style: none; }\n      .sidemenu .submenu ul > li > a {\n        display: block;\n        padding: .5em 1.3em; }\n      .sidemenu .submenu ul > li .active, .sidemenu .submenu ul > li :hover {\n        background: #1ED6CA;\n        color: #FFF;\n        text-decoration: none; }\n  .sidemenu .contact-us {\n    background-color: #E9E7E8;\n    -webkit-border-radius: 6px;\n    border-radius: 6px;\n    overflow: hidden; }\n    .sidemenu .contact-us h1 {\n      margin: 1em; }\n    .sidemenu .contact-us > header {\n      background-image: url(" + __webpack_require__(44) + ");\n      background-size: cover;\n      background-repeat: no-repeat;\n      height: 110px;\n      padding-top: 70px; }\n      .sidemenu .contact-us > header img {\n        width: 80px;\n        -webkit-border-radius: 50%;\n        border-radius: 50%;\n        border: 3px solid #FFF; }\n    .sidemenu .contact-us .contact-info {\n      margin-top: 50px;\n      margin-bottom: 30px;\n      font-size: 0.8em; }\n      @media (max-width: 767px) {\n        .sidemenu .contact-us .contact-info {\n          font-size: 1em; } }\n      .sidemenu .contact-us .contact-info dt {\n        margin: 0.5em 0 0.5em 3em;\n        text-align: left;\n        width: 4em; }\n        @media (max-width: 767px) {\n          .sidemenu .contact-us .contact-info dt {\n            float: left;\n            overflow: hidden;\n            clear: left;\n            text-align: right;\n            text-overflow: ellipsis;\n            white-space: nowrap; } }\n      .sidemenu .contact-us .contact-info dd {\n        margin-left: 0;\n        padding-top: 0.5em; }\n    .sidemenu .contact-us .send-me-msg {\n      background-color: #D7D3D2;\n      padding: 5px 20px 20px 20px; }\n      .sidemenu .contact-us .send-me-msg label {\n        font-weight: 400;\n        font-family: \"Montserrat\", sans-serif;\n        font-size: 0.9em;\n        color: #B5B3B4;\n        margin-bottom: 0; }\n      .sidemenu .contact-us .send-me-msg footer {\n        font-weight: 400;\n        font-family: \"Montserrat\", sans-serif;\n        font-size: 0.8em;\n        color: #B5B3B4;\n        text-align: right;\n        margin-top: 0.3em; }\n      .sidemenu .contact-us .send-me-msg .btn-info {\n        background-color: #1ED6CA;\n        margin: 2em 0 0 0;\n        padding: 1em 0; }\n  .sidemenu .office-address address {\n    margin: 1em 1em 2em 2em;\n    line-height: 2em;\n    color: #656668; }\n  .sidemenu .office-address .officeMap {\n    width: 100%; }\n\n.footer {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 20em;\n  background-color: #28373E;\n  padding-top: 3em;\n  display: flex;\n  flex-direction: row;\n  align-content: center;\n  justify-content: center; }\n  @media (max-width: 767px) {\n    .footer {\n      padding-top: 0;\n      font-size: 1em;\n      flex-direction: column;\n      height: 45em; } }\n  .footer nav {\n    text-align: center;\n    min-width: 25%; }\n    .footer nav h1 {\n      color: #FFF;\n      text-align: center;\n      font-size: 2em; }\n    .footer nav ul {\n      padding: 0;\n      margin: 0;\n      list-style: none; }\n    .footer nav li a {\n      display: inline-block;\n      color: #53656D;\n      padding: 0.2em 0;\n      font-weight: 100;\n      font-size: 1.3em; }\n", ""]);
+	exports.push([module.id, "html {\n  position: relative;\n  min-height: 100%; }\n\nbody {\n  padding-top: 45px;\n  padding-bottom: 20px;\n  margin-bottom: 20em;\n  font-family: \"Merriweather\", Arial, serif;\n  font-weight: 400; }\n  @media (max-width: 767px) {\n    body {\n      margin-bottom: 45em; } }\n  @media (min-width: 768px) and (max-width: 992px) {\n    body {\n      font-size: 1em; } }\n\na {\n  color: #1ED6CA;\n  text-decoration: none; }\n\np {\n  padding: 0.5em 0;\n  color: #676767;\n  font-weight: 100;\n  font-size: 1.1em;\n  line-height: 1.5em; }\n\nh1, h2, h3, h4, h5, h6 {\n  font-family: \"Montserrat\", sans-serif;\n  font-weight: 700; }\n\nnav.navbar {\n  background-color: #28373E;\n  min-height: 45px; }\n\n#nav-logo {\n  margin-top: 0.9em;\n  width: 6em; }\n  @media (max-width: 767px) {\n    #nav-logo {\n      margin-left: 1em; } }\n\n#navbar {\n  font-family: \"Montserrat\", sans-serif;\n  font-size: 1em; }\n  #navbar li > a {\n    line-height: 12px;\n    padding-left: 1.8em;\n    padding-right: 1.8em; }\n  #navbar ul li.active {\n    border-bottom: 2px solid #1ED6CA; }\n  #navbar ul > a {\n    background-color: #1F2A30; }\n\n.jumbotron {\n  background-color: #8198A0; }\n  .jumbotron p {\n    padding: 0;\n    font-family: \"Montserrat\", sans-serif;\n    font-weight: 400;\n    font-size: 2em; }\n    .jumbotron p span {\n      background-color: #EEAC56;\n      color: #FFF;\n      padding: 0.3em 0; }\n\n.main-content {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  align-items: flex-start; }\n  .main-content .main-article {\n    width: 75%;\n    order: 1;\n    padding-right: 2%; }\n    @media (max-width: 767px) {\n      .main-content .main-article {\n        width: 100%;\n        padding-right: 0; } }\n    .main-content .main-article > p:first-of-type {\n      font-size: 1.4em;\n      line-height: 1.5em;\n      padding: 1em 0; }\n    .main-content .main-article .quote {\n      width: 60%;\n      float: right;\n      font-size: 1.2em;\n      font-style: italic;\n      line-height: 1.6em;\n      padding: 2em 2em 0 2em;\n      color: #687B89; }\n    .main-content .main-article .quote-footer::before {\n      content: \"- \"; }\n    .main-content .main-article .quote-footer {\n      width: 60%;\n      padding: 0 1em 1em 0;\n      float: right;\n      text-align: right; }\n  .main-content h1.section-header {\n    background-color: #E9E7E8;\n    line-height: 0.15em;\n    margin: 1.5em 0; }\n    @media (max-width: 767px) {\n      .main-content h1.section-header {\n        font-size: 2em; } }\n    @media (max-width: 320px) {\n      .main-content h1.section-header {\n        font-size: 1.5em; } }\n    .main-content h1.section-header span {\n      background-color: #FFF;\n      display: inline-block;\n      border-left: 0.8em solid #FFF;\n      border-right: 0.8em solid #FFF; }\n  .main-content .more-articles {\n    margin-top: 10em; }\n    .main-content .more-articles .media-object {\n      width: 160px; }\n  .main-content .related-articles {\n    order: 3;\n    margin-top: 2em;\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap; }\n    .main-content .related-articles h1 {\n      width: 100%; }\n    .main-content .related-articles article {\n      width: 32%;\n      margin-right: 2%; }\n      .main-content .related-articles article:nth-of-type(3n) {\n        margin-right: 0; }\n      @media (max-width: 767px) {\n        .main-content .related-articles article {\n          width: 100%;\n          margin-right: 0; } }\n    .main-content .related-articles .thumbnail {\n      padding: 0;\n      border-width: 2px; }\n\n.sidemenu {\n  width: 25%;\n  order: 2;\n  align-self: flex-start; }\n  @media (max-width: 767px) {\n    .sidemenu {\n      width: 100%;\n      order: 5; } }\n  .sidemenu h1 {\n    font-size: 1.4em; }\n  .sidemenu .submenu {\n    border: 1px solid #E9E7E8;\n    padding-bottom: 1.4em;\n    margin-bottom: 1.4em;\n    -webkit-border-radius: 6px;\n    -moz-border-radius: 6px;\n    -ms-border-radius: 6px;\n    border-radius: 6px; }\n    @media (max-width: 767px) {\n      .sidemenu .submenu {\n        display: none; } }\n    .sidemenu .submenu ul {\n      margin: 0;\n      padding: 0;\n      list-style: none; }\n      .sidemenu .submenu ul > li > a {\n        display: block;\n        padding: .5em 1.3em;\n        text-decoration: none; }\n      .sidemenu .submenu ul > li .active, .sidemenu .submenu ul > li :hover {\n        background: #1ED6CA;\n        color: #FFF; }\n  .sidemenu .contact-us {\n    background-color: #E9E7E8;\n    -webkit-border-radius: 6px;\n    -moz-border-radius: 6px;\n    -ms-border-radius: 6px;\n    border-radius: 6px;\n    overflow: hidden; }\n    .sidemenu .contact-us h1 {\n      margin: 1em; }\n    .sidemenu .contact-us > header {\n      background-image: url(" + __webpack_require__(44) + ");\n      background-size: cover;\n      background-repeat: no-repeat;\n      height: 110px;\n      padding-top: 70px; }\n      .sidemenu .contact-us > header img {\n        width: 80px;\n        -webkit-border-radius: 50%;\n        -moz-border-radius: 50%;\n        -ms-border-radius: 50%;\n        border-radius: 50%;\n        border: 3px solid #FFF; }\n    .sidemenu .contact-us .contact-info {\n      margin-top: 50px;\n      margin-bottom: 30px;\n      font-size: 0.8em; }\n      @media (max-width: 767px) {\n        .sidemenu .contact-us .contact-info {\n          font-size: 1em; } }\n      .sidemenu .contact-us .contact-info dt {\n        margin: 0.5em 0 0.5em 3em;\n        text-align: left;\n        width: 4em; }\n        @media (max-width: 767px) {\n          .sidemenu .contact-us .contact-info dt {\n            float: left;\n            overflow: hidden;\n            clear: left;\n            text-align: right;\n            text-overflow: ellipsis;\n            white-space: nowrap; } }\n      .sidemenu .contact-us .contact-info dd {\n        margin-left: 0;\n        padding-top: 0.5em; }\n        @media (max-width: 767px) {\n          .sidemenu .contact-us .contact-info dd {\n            margin-left: 8em; } }\n    .sidemenu .contact-us .send-me-msg {\n      background-color: #D7D3D2;\n      padding: 5px 20px 20px 20px; }\n      .sidemenu .contact-us .send-me-msg label {\n        font-weight: 400;\n        font-family: \"Montserrat\", sans-serif;\n        font-size: 0.9em;\n        color: #B5B3B4;\n        margin-bottom: 0; }\n      .sidemenu .contact-us .send-me-msg footer {\n        font-weight: 400;\n        font-family: \"Montserrat\", sans-serif;\n        font-size: 0.8em;\n        color: #B5B3B4;\n        text-align: right;\n        margin-top: 0.3em; }\n      .sidemenu .contact-us .send-me-msg .btn-info {\n        background-color: #1ED6CA;\n        margin: 2em 0 0 0;\n        padding: 1em 0; }\n  .sidemenu .office-address address {\n    margin: 1em 1em 2em 2em;\n    line-height: 2em; }\n  .sidemenu .office-address .officeMap {\n    width: 100%; }\n\n.footer {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 20em;\n  background-color: #28373E;\n  padding-top: 3em;\n  display: flex;\n  flex-direction: row;\n  align-content: center;\n  justify-content: center; }\n  @media (max-width: 767px) {\n    .footer {\n      padding-top: 0;\n      font-size: 1em;\n      flex-direction: column;\n      height: 45em; } }\n  .footer nav {\n    text-align: center;\n    min-width: 25%; }\n    .footer nav h1 {\n      color: #FFF;\n      text-align: center;\n      font-size: 2em; }\n    .footer nav ul {\n      padding: 0;\n      margin: 0;\n      list-style: none; }\n    .footer nav li a {\n      display: inline-block;\n      color: #53656D;\n      padding: 0.2em 0;\n      font-weight: 100;\n      font-size: 1.3em; }\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 47 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var jade = __webpack_require__(48);
+	module.exports = __webpack_require__.p + "img/img-815095.jpg";
+
+/***/ },
+/* 45 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var jade = __webpack_require__(46);
 
 	module.exports = function template(locals) {
 	var buf = [];
@@ -12942,25 +12940,25 @@
 	var block = (this && this.block), attributes = (this && this.attributes) || {};
 	buf.push("<li><a" + (jade.attrs(jade.merge([{"href": "#"},attributes]), true)) + ">" + (jade.escape(null == (jade_interp = name) ? "" : jade_interp)) + "</a></li>");
 	};
-	buf.push((null == (jade_interp = __webpack_require__(50).call(this, locals)) ? "" : jade_interp) + "<div class=\"jumbotron\"><div class=\"container\"><p class=\"col-md-7\"><span>Duis mollis, in ligula odio, dignissim sed volutpat ut, facilisis non sapien. Maecenas sed condimentum risus, a dignissim ipsum.</span></p></div></div><div class=\"container main-content\">");
+	buf.push((null == (jade_interp = __webpack_require__(48).call(this, locals)) ? "" : jade_interp) + "<div class=\"jumbotron\"><div class=\"container\"><p class=\"col-md-7\"><span>Duis mollis, in ligula odio, dignissim sed volutpat ut, facilisis non sapien. Maecenas sed condimentum risus, a dignissim ipsum.</span></p></div></div><div class=\"container main-content\">");
 	jade_mixins["more-articles"] = jade_interp = function(header, imgFile, imgText, link, content){
 	var block = (this && this.block), attributes = (this && this.attributes) || {};
 	buf.push("<article class=\"media\"><div class=\"media-left\"><a" + (jade.attr("href", link, true, true)) + "><img" + (jade.attr("src", imgFile, true, true)) + (jade.attr("alt", imgText, true, true)) + " class=\"media-object img-rounded\"></a></div><div class=\"media-body\"><h1 class=\"media-heading\"><a" + (jade.attr("href", link, true, true)) + ">" + (jade.escape(null == (jade_interp = header) ? "" : jade_interp)) + "</a></h1><p>" + (jade.escape(null == (jade_interp = content) ? "" : jade_interp)) + "</p></div></article>");
 	};
 	buf.push("<article class=\"main-article\"><h1>Neque porro quisquam est qui</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, nisl eget congue rhoncus, dui felis congue turpis, et accumsan enim tortor sed velit. Praesent maximus mattis lectus, vel volutpat nunc. Mauris finibus eros a enim eleifend imperdiet. Cras sodales justo sit amet gravida tristique.</p><p>Fusce congue nibh eu aliquet pellentesque. Aliquam erat volutpat. Donec consequat ornare erat, id tempor nisl efficitur vel. Duis vel mattis ex, eu elementum dolor. Donec eu nisl iaculis, iaculis turpis ac, ullamcorper leo. Phasellus elementum efficitur quam, vitae commodo nunc tincidunt in. Sed sit amet tempus lectus. Aenean ac auctor elit, suscipit venenatis elit. Nullam metus purus, malesuada ac suscipit sed, imperdiet id risus. Suspendisse lobortis sit amet ante a consequat. In hac habitasse platea dictumst. Nullam efficitur, leo aliquet finibus egestas, velit mauris viverra velit, mollis commodo ex felis pretium felis. Morbi eu diam venenatis, posuere mi venenatis, mollis elit. Donec orci odio, mattis non auctor non, posuere sit amet mi. Donec porttitor commodo enim ac vulputate. Donec pharetra tortor eget ex auctor dictum.</p><p>In hac habitasse platea dictumst. Etiam consequat mi mi, eu ullamcorper felis dapibus tristique.<cite class=\"quote\">If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.</cite><span class=\"quote-footer\">Bruce Lee</span> Suspendisse pretium nisi convallis diam gravida, non volutpat diam gravida. Ut vitae nunc eros. Donec mauris dolor, cursus vel arcu quis, aliquet sodales risus. Phasellus volutpat elementum placerat. Nam convallis, augue maximus volutpat lacinia, quam arcu aliquam lacus, nec laoreet orci magna ac sapien. Mauris id sagittis purus. Ut blandit ligula eu cursus hendrerit. Fusce a tincidunt nunc, eu volutpat neque. Nullam varius dolor ut lorem ultricies volutpat. Maecenas pellentesque laoreet tincidunt. Nulla facilisi. Vestibulum sapien dolor, cursus a nunc ac, sodales tristique velit. Vestibulum eget sem sed sem tristique vehicula.</p></p><aside class=\"more-articles\"><h1 class=\"text-center section-header\"><span>More in this series</span></h1>");
-	jade_mixins["more-articles"]('Sed suscipit quis leo vel posuere', __webpack_require__(52), 'teaser-01', '#', 'Fusce vestibulum mollis ex, eu placerat nulla dictum at. Suspendisse rhoncus mi in quam aliquet semper. Duis feugiat sollicitudin nunc, ac pellentesque nisi efficitur tempus.');
-	jade_mixins["more-articles"]('Aenean a ornare leo donec', __webpack_require__(53), 'teaser-02', '#', 'Nullam varius eget nisi at pharetra. Donec vulputate quam ac accumsan venenatis. In sed erat auctor, blandit nisi sit amet, cursus urna. Sed ultrices sed sem ut ultrices a iaculis ipsum augue id eros. Morbi at vestibulum ipsum. Proin tempor non nibh iaculis condimentum.');
+	jade_mixins["more-articles"]('Sed suscipit quis leo vel posuere', __webpack_require__(50), 'teaser-01', '#', 'Fusce vestibulum mollis ex, eu placerat nulla dictum at. Suspendisse rhoncus mi in quam aliquet semper. Duis feugiat sollicitudin nunc, ac pellentesque nisi efficitur tempus.');
+	jade_mixins["more-articles"]('Aenean a ornare leo donec', __webpack_require__(51), 'teaser-02', '#', 'Nullam varius eget nisi at pharetra. Donec vulputate quam ac accumsan venenatis. In sed erat auctor, blandit nisi sit amet, cursus urna. Sed ultrices sed sem ut ultrices a iaculis ipsum augue id eros. Morbi at vestibulum ipsum. Proin tempor non nibh iaculis condimentum.');
 	buf.push("</aside></article>");
 	jade_mixins["related-articles"] = jade_interp = function(header, imgFile, imgText, link, content){
 	var block = (this && this.block), attributes = (this && this.attributes) || {};
 	buf.push("<article><div class=\"thumbnail\"><img" + (jade.attr("src", imgFile, true, true)) + (jade.attr("alt", imgText, true, true)) + "><div class=\"caption\"><h1><a" + (jade.attr("href", link, true, true)) + ">" + (jade.escape(null == (jade_interp = header) ? "" : jade_interp)) + "</a></h1><p>" + (jade.escape(null == (jade_interp = content) ? "" : jade_interp)) + "</p></div></div></article>");
 	};
 	buf.push("<section class=\"related-articles\"><h1 class=\"text-center section-header\"><span>Related Articles</span></h1>");
-	jade_mixins["related-articles"]('Proin facilisis dui nec mollis ex', __webpack_require__(54), 'teaser-rect-01', '#', 'Donec et eros sed mi tincidunt elementum. Sed suscipit quis leo vel posuere non condimentum sollicitudin, nunc elit laoreet odio, a iaculis ipsum augue id eros.');
-	jade_mixins["related-articles"]('Fusce vestibulum', __webpack_require__(55), 'teaser-rect-02', '#', 'Suspendisse rhoncus mi in quam aliquet semper.');
-	jade_mixins["related-articles"]('Duis feugiat sollicitudin', __webpack_require__(56), 'teaser-rect-03', '#', 'Integer tristique ante sed turpis pharetra commodo, auctor eu diam. Praesent ut libero vitae justo luctus pellentesque. Fusce et mi non leo scelerisque bibendum.');
-	jade_mixins["related-articles"]('Maecenas at lorem sit amet', __webpack_require__(57), 'teaser-rect-04', '#', 'Nunc mi elit, consequat sed lobortis sit amet, posuere non justo. Morbi feugiat a lorem sit amet rhoncus.');
-	jade_mixins["related-articles"]('Curabitur imperdiet magna', __webpack_require__(58), 'teaser-rect-05', '#', 'Fusce consectetur hendrerit nunc, sit amet scelerisque velit hendrerit vel. Vestibulum mattis id sapien et mollis. Etiam non mattis magna.');
+	jade_mixins["related-articles"]('Proin facilisis dui nec mollis ex', __webpack_require__(52), 'teaser-rect-01', '#', 'Donec et eros sed mi tincidunt elementum. Sed suscipit quis leo vel posuere non condimentum sollicitudin, nunc elit laoreet odio, a iaculis ipsum augue id eros.');
+	jade_mixins["related-articles"]('Fusce vestibulum', __webpack_require__(53), 'teaser-rect-02', '#', 'Suspendisse rhoncus mi in quam aliquet semper.');
+	jade_mixins["related-articles"]('Duis feugiat sollicitudin', __webpack_require__(54), 'teaser-rect-03', '#', 'Integer tristique ante sed turpis pharetra commodo, auctor eu diam. Praesent ut libero vitae justo luctus pellentesque. Fusce et mi non leo scelerisque bibendum.');
+	jade_mixins["related-articles"]('Maecenas at lorem sit amet', __webpack_require__(55), 'teaser-rect-04', '#', 'Nunc mi elit, consequat sed lobortis sit amet, posuere non justo. Morbi feugiat a lorem sit amet rhoncus.');
+	jade_mixins["related-articles"]('Curabitur imperdiet magna', __webpack_require__(56), 'teaser-rect-05', '#', 'Fusce consectetur hendrerit nunc, sit amet scelerisque velit hendrerit vel. Vestibulum mattis id sapien et mollis. Etiam non mattis magna.');
 	buf.push("</section><aside class=\"sidemenu\"><nav class=\"submenu\"><h1 class=\"text-center\">Submenu</h1><ul>");
 	jade_mixins["link"]('Home');
 	jade_mixins["link"].call({
@@ -12968,7 +12966,7 @@
 	}, 'Examples');
 	jade_mixins["link"]('Contact');
 	jade_mixins["link"]('About');
-	buf.push("</ul></nav><section class=\"contact-us\"><header><img" + (jade.attr("src", __webpack_require__(59), true, true)) + " alt=\"Neo's Profile Picture\" class=\"center-block\"></header><dl class=\"contact-info dl-horizontal\"><dt>Name</dt><dd>Neo Choi</dd><dt>Email</dt><dd>neo.choi@example.com</dd><dt>Phone</dt><dd>+852 9123 4567</dd></dl><section class=\"send-me-msg\"><h1 class=\"text-center\">Send me a message</h1><form><div class=\"form-group\"><label for=\"InputSubject\">Subject</label><input type=\"text\" id=\"SendMsgSubject\" class=\"form-control\"></div><div class=\"form-group\"><label for=\"SendMsgMessage\">Message</label><textarea rows=\"3\" id=\"SendMsgMessage\" class=\"form-control\"></textarea><footer><span id=\"SendMsgMessageCount\">0 /140</span></footer></div><button type=\"submit\" class=\"btn btn-info btn-block\">Send</button></form></section><section class=\"office-address\"><h1 class=\"text-center\">Or meet me at the office</h1><img" + (jade.attr("src", __webpack_require__(60), true, true)) + " alt=\"Map\" class=\"officeMap\"><address>ONE MIDTOWN<br>\n11 Hoi Shing Rd<br>\nTsuen Wan<br></address></section></section></aside></div>");
+	buf.push("</ul></nav><section class=\"contact-us\"><header><img" + (jade.attr("src", __webpack_require__(57), true, true)) + " alt=\"Neo's Profile Picture\" class=\"center-block\"></header><dl class=\"contact-info dl-horizontal\"><dt>Name</dt><dd>Neo Choi</dd><dt>Email</dt><dd>neo.choi@example.com</dd><dt>Phone</dt><dd>+852 9123 4567</dd></dl><section class=\"send-me-msg\"><h1 class=\"text-center\">Send me a message</h1><form><div class=\"form-group\"><label for=\"InputSubject\">Subject</label><input type=\"text\" id=\"SendMsgSubject\" class=\"form-control\"></div><div class=\"form-group\"><label for=\"SendMsgMessage\">Message</label><textarea rows=\"3\" id=\"SendMsgMessage\" class=\"form-control\"></textarea><footer><span id=\"SendMsgMessageCount\">0 /140</span></footer></div><button type=\"submit\" class=\"btn btn-info btn-block\">Send</button></form></section><section class=\"office-address\"><h1 class=\"text-center\">Or meet me at the office</h1><img" + (jade.attr("src", __webpack_require__(58), true, true)) + " alt=\"Map\" class=\"officeMap\"><address>ONE MIDTOWN<br>\n11 Hoi Shing Rd<br>\nTsuen Wan<br></address></section></section></aside></div>");
 	jade_mixins["list"] = jade_interp = function(header){
 	var block = (this && this.block), attributes = (this && this.attributes) || {};
 	var items = [];
@@ -13008,7 +13006,7 @@
 	}
 
 /***/ },
-/* 48 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13228,7 +13226,7 @@
 	    throw err;
 	  }
 	  try {
-	    str = str || __webpack_require__(49).readFileSync(filename, 'utf8')
+	    str = str || __webpack_require__(47).readFileSync(filename, 'utf8')
 	  } catch (ex) {
 	    rethrow(err, null, lineno)
 	  }
@@ -13260,81 +13258,81 @@
 
 
 /***/ },
-/* 49 */
+/* 47 */
 /***/ function(module, exports) {
 
 	/* (ignored) */
 
 /***/ },
-/* 50 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var jade = __webpack_require__(48);
+	var jade = __webpack_require__(46);
 
 	module.exports = function template(locals) {
 	var buf = [];
 	var jade_mixins = {};
 	var jade_interp;
 	var self = locals || {};
-	buf.push("<nav class=\"navbar navbar-inverse navbar-fixed-top\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\" class=\"navbar-toggle collapsed\"><span class=\"sr-only\">Toggle navigation</span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button><img id=\"nav-logo\"" + (jade.attr("src", __webpack_require__(51), true, true)) + " alt=\"OYODO Logo\"></div><div id=\"navbar\" class=\"collapse navbar-collapse navbar-right\"><ul class=\"nav navbar-nav\"><li class=\"active\"><a href=\"#\">HOME</a></li><li><a href=\"#\">DAPIBUS</a></li><li><a href=\"#\">ULTRICIES</a></li><li><a href=\"#\">BIBENDUM</a></li><li><a href=\"#\">MAGNA</a></li></ul></div></div></nav>");;return buf.join("");
+	buf.push("<nav class=\"navbar navbar-inverse navbar-fixed-top\"><div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\" class=\"navbar-toggle collapsed\"><span class=\"sr-only\">Toggle navigation</span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button><img id=\"nav-logo\"" + (jade.attr("src", __webpack_require__(49), true, true)) + " alt=\"OYODO Logo\"></div><div id=\"navbar\" class=\"collapse navbar-collapse navbar-right\"><ul class=\"nav navbar-nav\"><li class=\"active\"><a href=\"#\">HOME</a></li><li><a href=\"#\">DAPIBUS</a></li><li><a href=\"#\">ULTRICIES</a></li><li><a href=\"#\">BIBENDUM</a></li><li><a href=\"#\">MAGNA</a></li></ul></div></div></nav>");;return buf.join("");
 	}
 
 /***/ },
-/* 51 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "font/f1ef4c.svg";
 
 /***/ },
-/* 52 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-d9fe39.jpg";
 
 /***/ },
-/* 53 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-935507.jpg";
 
 /***/ },
-/* 54 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-adeb92.jpg";
 
 /***/ },
-/* 55 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-8ab171.jpg";
 
 /***/ },
-/* 56 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-f69524.jpg";
 
 /***/ },
-/* 57 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-9b7d22.jpg";
 
 /***/ },
-/* 58 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-bfe252.jpg";
 
 /***/ },
-/* 59 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-b4b9c6.jpg";
 
 /***/ },
-/* 60 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "img/img-71baa1.gif";

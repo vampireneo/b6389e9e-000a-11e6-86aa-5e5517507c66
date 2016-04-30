@@ -1,5 +1,5 @@
 .sidemenu
-  width: 25%
+  width: 100% - $main-article-width
   order: 2
   align-self: flex-start
   @media (max-width: 767px)
@@ -10,11 +10,12 @@
     font-size: 1.4em
 
   .submenu
-    border: 1px solid #E7E7E7
+    border: 1px solid $contact-us-bg-color
     padding-bottom: 1.4em
     margin-bottom: 1.4em
-    -webkit-border-radius: 6px
-    border-radius: 6px
+    +border-radius(6px)
+    @media (max-width: 767px)
+      display: none
 
     ul
       margin: 0
@@ -25,32 +26,31 @@
         >a
           display: block
           padding: .5em 1.3em
+          text-decoration: none
 
         .active, :hover
           background: $highlight-color
           color: $highlight-font-color
-          text-decoration: none
 
   .contact-us
     background-color: $contact-us-bg-color
-    -webkit-border-radius: 6px
-    border-radius: 6px
+    +border-radius(6px)
     overflow: hidden
 
     h1
       margin: 1em
 
     >header
-      background-image: url('../img/hk-skyline.jpg')
-      background-size: cover
-      background-repeat: no-repeat
+      background:
+        image: url('../img/hk-skyline.jpg')
+        size: cover
+        repeat: no-repeat
       height: 110px
       padding-top: 70px
 
       img
         width: 80px
-        -webkit-border-radius: 50%
-        border-radius: 50%
+        +border-radius(50%)
         border: 3px solid #FFF
 
     .contact-info
@@ -75,22 +75,26 @@
       dd
         margin-left: 0
         padding-top: 0.5em
+        @media (max-width: 767px)
+          margin-left: 8em
 
     .send-me-msg
       background-color: $contact-us-bg-deep-color
       padding: 5px 20px 20px 20px
 
       label
-        font-weight: $normal-font-weight
-        font-family: $header-font
-        font-size: 0.9em
+        font:
+          weight: $normal-font-weight
+          family: $header-font
+          size: 0.9em
         color: $send-me-msg-font-color
         margin-bottom: 0
 
       footer
-        font-weight: $normal-font-weight
-        font-family: $header-font
-        font-size: 0.8em
+        font:
+          weight: $normal-font-weight
+          family: $header-font
+          size: 0.8em
         color: $send-me-msg-font-color
         text-align: right
         margin-top: 0.3em
@@ -104,7 +108,6 @@
     address
       margin: 1em 1em 2em 2em
       line-height: 2em
-      color: #656668
 
     .officeMap
       width: 100%

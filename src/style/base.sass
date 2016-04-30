@@ -1,12 +1,13 @@
-@import var
+@import "var"
 
 html
   position: relative
   min-height: 100%
 
 body
-  padding-top: 45px
-  padding-bottom: 20px
+  padding:
+    top: 45px
+    bottom: 20px
   margin-bottom: 20em
   font-family: $normal-font
   font-weight: $normal-font-weight
@@ -21,16 +22,17 @@ a
 
 p
   padding: 0.5em 0
-  font-weight: 100
   color: $normal-font-color
+  font-weight: 100
   font-size: 1.1em
   line-height: 1.5em
 
 h1, h2, h3, h4, h5, h6
-  font-family: $header-font
-  font-weight: $header-font-weight
+  font:
+    family: $header-font
+    weight: $header-font-weight
 
-@import navbar
-@import main-article
-@import sidemenu
-@import footer
+@import "navbar"
+@import "main-article"
+@import "sidemenu"
+@import "footer"
