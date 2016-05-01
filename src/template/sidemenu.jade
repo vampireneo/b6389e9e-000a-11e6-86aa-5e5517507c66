@@ -25,12 +25,14 @@ aside.sidemenu
         div.form-group
           label(for="SendMsgMessage") Message
           textarea.form-control(rows="3", id="SendMsgMessage")
-          footer: span(id="SendMsgMessageCount") 0 /140
+          footer
+            span(id="SendMsgMessageResponse")
+            span(id="SendMsgMessageCount") 0 /140
         button(type="submit").btn.btn-info.btn-block Send
     section.office-address
       h1.text-center Or meet me at the office
-      img(src=require("../img/map.gif"), alt="Map").officeMap
-      address.
+      a(href="https://goo.gl/maps/5b1zqABK4LP2" target="_blank"): img(src=require("../img/map.gif"), alt="Map").officeMap
+      a(href="https://goo.gl/maps/5b1zqABK4LP2" target="_blank"): address.
         ONE MIDTOWN<br>
         11 Hoi Shing Rd<br>
         Tsuen Wan<br>
